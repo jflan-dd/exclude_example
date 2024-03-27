@@ -1,0 +1,34 @@
+{
+  "direct_dep_identities": [
+    "dummypackage"
+  ],
+  "modules": [
+    {
+      "name": "DummyPackage",
+      "c99name": "DummyPackage",
+      "src_type": "swift",
+      "label": "@swiftpkg_dummypackage//:DummyPackage.rspm",
+      "package_identity": "dummypackage",
+      "product_memberships": [
+        "DummyPackage"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "identity": "dummypackage",
+      "name": "DummyPackage",
+      "type": "library",
+      "label": "@swiftpkg_dummypackage//:DummyPackage"
+    }
+  ],
+  "packages": [
+    {
+      "name": "swiftpkg_dummypackage",
+      "identity": "dummypackage",
+      "local": {
+        "path": "DummyPackage"
+      }
+    }
+  ]
+}
